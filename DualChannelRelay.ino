@@ -44,10 +44,4 @@ void onRelay2Change()  {
 
 }
 
-/*
-  Since MasaLambasi is READ_WRITE variable, onMasaLambasiChange() is
-  executed every time a new value is received from IoT Cloud.
-*/
-void onMasaLambasiChange()  {
-  // Add your code here to act upon MasaLambasi change
-}
+void onLightsChange()  {}
